@@ -15,11 +15,11 @@ $password = 'internet_eszkozok_zh';
 $salt = "nNUGIBREDnnvujW8324";
 $userTable = 'felhasznalok';
 $galleriesTable = 'galeriak';
-$galleryPicturesTable = 'galeria_kepek';
 $cookie_expires = 5 * 1;
 
 
-define('GALLERY_PATH', '/home/gabor/Documents/Coding/Internet-eszkozok/internet_eszkozok_zh/galleries/');
+//define('GALLERY_PATH', '/home/gabor/Documents/Coding/Internet-eszkozok/internet_eszkozok_zh/media/img/');
+define('GALLERY_PATH', dirname(__DIR__).'/media/');
 
 $dbcon = new mysqli($host, $user, $password, $db);
 

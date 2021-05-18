@@ -7,6 +7,7 @@ if (isset($_SESSION['felhasznalo'])) {
 ?>
 
 <form action="controller/login.php" method="post">
+    <h1>Belépés</h1>
     <?php if (isset($_SESSION['error'])): ?>
         <div class="alert alert-danger">
             <?= $_SESSION['error'] ?>

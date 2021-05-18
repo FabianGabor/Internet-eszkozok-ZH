@@ -82,56 +82,56 @@ $scale12: (
 );
 
 html, .root {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: map-get($root, fontSize);
+  lihe-height: map-get($root, line);
 }
 body, .article {
   font-family: sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: map-get($scale0, fontSize);
+  line-height: map-get($scale0, line);
 }
 
 .text-huge {
-  font-size: 4.22rem;
-  line-height: 4.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  font-size: map-get($scale5, fontSize);
+  line-height: map-get($scale5, line);
+  margin-top: map-get($scale5, line);
+  margin-bottom: map-get($scale5, line);
 }
 
 .text-large {
-  font-size: 3.165rem;
-  line-height: 4.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  font-size: map-get($scale4, fontSize);
+  line-height: map-get($scale4, line);
+  margin-top: map-get($scale4, line);
+  margin-bottom: map-get($scale4, line);
 }
 h1, .h1 {
-  font-size: 2.375rem;
-  line-height: 3rem;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  font-size: map-get($scale3, fontSize);
+  line-height: map-get($scale3, line);
+  margin-top: map-get($scale3, line);
+  margin-bottom: map-get($scale3, line);
 }
 h2, .h2 {
-  font-size: 1.75rem;
-  line-height: 3rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-size: map-get($scale2, fontSize);
+  line-height: map-get($scale2, line);
+  margin-top: map-get($scale2, line);
+  margin-bottom: map-get($scale2, line);
 }
 h3, .h3 {
-  font-size: 1.3125rem;
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-size: map-get($scale1, fontSize);
+  line-height: map-get($scale1, line);
+  margin-top: map-get($scale1, line);
+  margin-bottom: map-get($scale1, line);
 }
 h4, .h4 {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
+  font-size: map-get($scale0, fontSize);
+  line-height: map-get($scale0, line);
+  margin-top: map-get($scale0, line);
   margin-bottom: 0rem;
 }
 h5, .h5 {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
+  font-size: map-get($scale0, fontSize);
+  line-height: map-get($scale0, line);
+  margin-top: map-get($scale0, line);
   margin-bottom: 0rem;
 }
 p, ul, ol, pre, table, blockquote {
