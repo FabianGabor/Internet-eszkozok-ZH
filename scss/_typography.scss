@@ -1,0 +1,164 @@
+$root: (
+        fontSize: 16px,
+        lineHeight: 24px
+);
+$scale0: (
+        fontSize: 1rem,
+        line: 1.5rem,
+        autoLineCount: 1,
+        autoLineHeight: 1.5rem
+);
+$scale1: (
+        fontSize: 1.3125rem,
+        line: 1.5rem,
+        autoLineCount: 1,
+        autoLineHeight: 1.5rem
+);
+$scale2: (
+        fontSize: 1.75rem,
+        line: 1.5rem,
+        autoLineCount: 2,
+        autoLineHeight: 3rem
+);
+$scale3: (
+        fontSize: 2.375rem,
+        line: 1.5rem,
+        autoLineCount: 2,
+        autoLineHeight: 3rem
+);
+$scale4: (
+        fontSize: 3.1875rem,
+        line: 1.5rem,
+        autoLineCount: 3,
+        autoLineHeight: 4.5rem
+);
+$scale5: (
+        fontSize: 4.1875rem,
+        line: 1.5rem,
+        autoLineCount: 3,
+        autoLineHeight: 4.5rem
+);
+$scale6: (
+        fontSize: 5.625rem,
+        line: 1.5rem,
+        autoLineCount: 4,
+        autoLineHeight: 6rem
+);
+$scale7: (
+        fontSize: 7.5rem,
+        line: 1.5rem,
+        autoLineCount: 5,
+        autoLineHeight: 7.5rem
+);
+$scale8: (
+        fontSize: 10rem,
+        line: 1.5rem,
+        autoLineCount: 7,
+        autoLineHeight: 10.5rem
+);
+$scale9: (
+        fontSize: 13.3125rem,
+        line: 1.5rem,
+        autoLineCount: 9,
+        autoLineHeight: 13.5rem
+);
+$scale10: (
+        fontSize: 17.6875rem,
+        line: 1.5rem,
+        autoLineCount: 12,
+        autoLineHeight: 18rem
+);
+$scale11: (
+        fontSize: 23.625rem,
+        line: 1.5rem,
+        autoLineCount: 16,
+        autoLineHeight: 24rem
+);
+$scale12: (
+        fontSize: 31.5rem,
+        line: 1.5rem,
+        autoLineCount: 21,
+        autoLineHeight: 31.5rem
+);
+
+html, .root {
+  font-size: 16px;
+  line-height: 24px;
+}
+body, .article {
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-huge {
+  font-size: 4.22rem;
+  line-height: 4.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.text-large {
+  font-size: 3.165rem;
+  line-height: 4.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+h1, .h1 {
+  font-size: 2.375rem;
+  line-height: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+h2, .h2 {
+  font-size: 1.75rem;
+  line-height: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+h3, .h3 {
+  font-size: 1.3125rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+h4, .h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+h5, .h5 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
