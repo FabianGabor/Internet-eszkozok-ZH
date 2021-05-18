@@ -1,0 +1,1 @@
+CREATE TABLE `internet_eszkozok_zh`.`felhasznalok` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `vezeteknev` VARCHAR(255) NOT NULL , `keresztnev` VARCHAR(255) NOT NULL , `email` VARCHAR(128) NOT NULL , `jelszo` VARCHAR(128) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
